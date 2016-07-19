@@ -1,0 +1,129 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nomargin{
+    margin: 0;
+}
+
+.nopadding{
+    padding: 0;
+}
+
+.container-fluid > .row{
+    margin-top: 15px;
+}
+
+.clock-weather .jumbotron{
+    margin-bottom: 0;
+}
+
+.clock{
+    padding-top: 30px;
+    padding: 89px 0;
+    margin-bottom: 0;
+    min-height: 330px;
+}
+
+.clock .list-inline{
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 75px;
+    text-align: center;
+}
+
+.clock .list-inline>li{
+    padding: 0;
+}
+
+#date {
+    font-size: 25px;
+    text-align: center;
+    color: #666;
+}
+
+.col-md-8 .jumbotron{
+    margin-right: 0;
+    min-height: 330px;
+}
+
+.weather{
+    display: none;
+}
+
+.weather .weather-icon{
+    max-height: 232px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.dark .weather .weather-icon,
+.dark .weather-icon-small{
+    -webkit-filter:invert(0.5);
+    filter: invert(0.5);
+}
+
+.col-md-8 .row .col-md-4 {
+    padding-right: 15px;
+}
+
+.nopadding .jumbotron {
+    padding: 15px 15px 15px 15px;
+}
+
+.weather-icon-small{
+    max-height: 100px;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.col-md-6 .jumbotron,
+.col-md-12 .jumbotron{
+    min-height: 330px;
+    margin-bottom: 15px;
+}
+
+.col-md-8 .col-md-4 .jumbotron{
+    margin-bottom: 15px;
+}
+
+.neungag .jumbotron h6{
+    font-size: 16px;
+}
+
+.neungag .jumbotron img{
+    max-height: 250px;
+    margin: 0 auto;
+}
+
+.buy_container li,
+.todo_container li{
+    font-size: 17px;
+}
+
+#todo,
+#buy{
+    padding: 1px 30px 15px 30px;
+    min-height: 675px;
+}
+
+.todo_col{
+    padding-right: 7.5px;
+}
+
+.buy_col{
+    padding-left: 7.5px;
+}
+
+.todo_container .col-md-6,
+.buy_container .col-md-6{
+    padding-left: 0;
+}
+
+.label{
+    position: relative;
+    top: 2.5px;
+}
